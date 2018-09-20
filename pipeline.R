@@ -24,9 +24,4 @@ exp_matrix <- as.matrix(exp_matrix)
 cell_samples <- colnames(exp_matrix)
 transcripts <- rownames(exp_matrix)
 
-
-#colnames(exp_matrix) <- cell_samples
-#rownames(exp_matrix) <- transcripts
-
-
 weightMat <- GENIE3(exp_matrix_data)
